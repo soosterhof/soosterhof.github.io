@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sophia Oosterhof - Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link id="style" rel="stylesheet" href="style.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body class="container-fluid p-0" data-bs-spy="scroll" data-bs-target="#myListSpy" data-bs-offset="200">
+  <!--Scroolspyy-->
+  <div id="myListSpy" class="d-none">
+    <a class="nav-link" href="#section2"></a>
+    <a class="nav-link" href="#section3"></a>
+    <a class="nav-link" href="#section4"></a>
+    <a class="nav-link" href="#section5"></a>
+  </div>
+  <!--Scroolspyy-->
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg sticky-top mt-2 p-0" id="myNavbar">
+    <div class="container-fluid m-0">
+      <a class="navbar-brand my-lg-3 mx-lg-3 p-0 my-3" href="index.html">
+        <h1 class="navTitel text-black text-decoration-none">Sophia Oosterhof</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-black text-center" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black text-center active" aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black text-center" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black text-center" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar-->
+  <!--main-->
+  <main>
+      <div class="gallery container-fluid p-1 mb-5">
+        <!--Row one-->
+        <div class="row my-2 mx-2">
+          <div class="card pop-effect-gallery mb-5 border-0 w-lg-75 colorBackground">
+            <div class="card-body p-0 me-5">
+              <h3 class="card-title mb-3 px-lg-5">Work</h3>
+              <p class="card-text px-lg-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Nulla et aliquam sem. Etiam sagittis ultricies sem, a scelerisque turpis faucibus id. Vivamus in
+                lectus a urna tristique pulvinar vitae nec magna.
+              </p>
+            </div>
+          </div>
+
+          <!--Column 1-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded pop-effect-gallery">         
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/009.webp" alt="Artist Paintings">
+            <p class="pt-1">Mechanical flow</p>
+          </div>
+          <!--Column 2-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded pop-effect-gallery">          
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/003.webp" alt="Artist Paintings">
+            <p class="pt-1">Seeing</p>
+          </div>
+          <!--Column 3-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded pop-effect-gallery">
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/015.webp" alt="Artist Paintings">
+            <p class="pt-1">In the flow</p>
+          </div>
+          <!--Column 4-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded pop-effect-gallery">           
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/021.webp" alt="Artist Paintings">
+            <p class="pt-1">Peek-A-Boo</p>
+          </div>
+          <div class="text-center fs-5 text-fade-out hideText anim-5">Scroll to see more images</div>
+        </div>
+
+        <!--Row two-->
+        <div class="row my-2 mx-2" id="section2">
+          <!--Column 1-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-bottom anim-4">         
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/Looking.webp" alt="Artist Paintings">
+            <p class="pt-1">Looking</p>
+          </div>
+          <!--Column 2-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-bottom anim-3">    
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/001.webp" alt="Artist Paintings">
+            <p class="pt-1">Aaaa</p>
+          </div>
+          <!--Column 3-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-bottom anim-2">      
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/018.webp" alt="Artist Paintings">
+            <p class="pt-1">Being</p>
+          </div>
+          <!--Column 4-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-bottom anim-1"> 
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/004.webp" alt="Artist Paintings">
+            <p class="pt-1">Observed</p>
+          </div>
+        </div>
+
+        <!--Row three-->
+        <div class="row my-2 mx-2" id="section3">
+          <!--Column 1-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-top anim-1">            
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/006.webp" alt="Artist Paintings">
+            <p class="pt-1">Expand</p>
+          </div>
+          <!--Column 2-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-top anim-2">
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/007.webp" alt="Artist Paintings">
+            <p class="pt-1">Dreamcatcher</p>
+          </div>
+          <!--Column 3-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-top anim-3">
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/002.webp" alt="Artist Paintings">
+            <p class="pt-1">Grow</p>
+          </div>
+          <!--Column 4-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in-top anim-4">     
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/treeFlow.webp" alt="Artist Paintings">
+            <p class="pt-1">Vein</p>
+          </div>
+        </div>
+
+        <!--Row four-->
+        <div class="row my-2 mx-2" id="section4">
+          <!--Column 1-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-from-left anim-1">
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/sunflowers.webp" alt="Artist Paintings">
+            <p class="pt-1">Sunflowers</p>
+          </div>
+          <!--Column 2-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-from-left anim-2">  
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/024.webp" alt="Artist Paintings">
+            <p class="pt-1">Black and white</p>
+          </div>
+          <!--Column 3-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-from-left anim-3">   
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/manet.webp" alt="Artist Paintings">
+            <p class="pt-1">Jellyfish</p>
+          </div>
+          <!--Column 4-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-from-left anim-4">  
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/greyScales.webp" alt="Artist Paintings">
+            <p class="pt-1">Shades of grey</p>
+          </div>
+        </div>
+
+        <!--Row five-->
+        <div class="row my-2 mx-2 " id="section5">
+          <!--Column 1-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in anim-4">        
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/008.webp" alt="Artist Paintings">
+            <p class="pt-1">Indigo</p>
+          </div>
+          <!--Column 2-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in anim-3">  
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/vr.webp" alt="Artist Paintings">
+            <p class="pt-1">Wired in</p>
+          </div>
+          <!--Column 3-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in anim-2 ">         
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/010.webp" alt="Artist Paintings">
+            <p class="pt-1">Swirl</p>
+          </div>
+          <!--Column 4-->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 px-2 py-0 text-center rounded anim anim-fade-in anim-1 ">  
+            <img class="imageHoverEffect img-fluid align-self-center imagesgallery clickImage" src="gallery/bigBang.webp" alt="Artist Paintings">
+            <p class="pt-1">Big Bang</p>
+          </div>
+
+          <div class="row my-3 mx-2 rowGallery d-none">
+           
+          </div>
+
+          <div class="row divTextEffect ">
+
+            <div class="col text-start">
+              <button id="showMoreGalleryBtn" class="pe-lg-5 me-3 pe-2 text-decoration-none text-black anim anim-pop anim-5 textEffect" >
+                Show more  
+              </button>
+            </div>
+
+           <div class="col text-end">
+            <a id="backTotopBtn" class=" pe-lg-5 me-3 pe-2 text-decoration-none text-black anim anim-pop anim-5 textEffect" href="#">
+              Back to top  <i class="fa-solid fa-arrow-up"></i>
+            </a>
+           </div>
+      
+          </div>
+
+        </div>
+      </div>
+  </main>
+  <!--main-->
+
+  <!--footer-->
+  <footer class="container-fluid p-1  ">
+    <div class="border-top border-dark opacity-50"></div>
+    <div class="row my-5 mx-2 mt-5">
+      <!--Column left-->
+      <div class="col-md-4 text-center">
+        <h5 class="text-center">Contact</h5>
+        <p class="text-center">sophiaoosterhof@hotmail.com</p>
+      </div>
+      <!--Column center-->
+      <div class="col-md-4 mt-1 mt-md-0 text-center">
+        <h5 class="text-center ">Artist name</h5>
+        <p class="text-center ">Sophia Oosterhof</p>
+      </div>
+      <!--Column top-->
+      <div class="col-md-4 mt-1 mt-md-0 text-center">
+        <h5 class="text-center">Social media</h5>
+        <i class="fa-brands fa-facebook text-end pe-2"></i>
+        <i class="fa-brands fa-instagram text-end ps-2"></i>
+      </div>
+    </div>
+  </footer>
+  <!--footer-->
+
+  <!--Modal-->
+  <div class="modal fade" id="myImageModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="#" class="img-fluid align-self-center" alt="artImage" id="modalImage">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d1f16eeb2d.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
